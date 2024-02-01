@@ -1,0 +1,11 @@
+
+.foot {
+    background-color: rgb(12, 8, 143);
+    align-items: center;
+    bottom: 0;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 1;
+    margin-bottom: -100rem;
+
+}

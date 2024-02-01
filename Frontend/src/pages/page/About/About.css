@@ -1,0 +1,15 @@
+.about-background {
+    height: 50vh;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.about-landing-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

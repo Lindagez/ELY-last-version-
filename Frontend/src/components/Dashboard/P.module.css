@@ -1,0 +1,541 @@
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-grow: 1;
+
+}
+
+.newItemSection {
+    margin-bottom: 20px;
+    margin: 10px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.successMessage {
+    color: green;
+}
+
+.postedItemsSection {
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+.postedItemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.itemCardImage {
+    width: 100%;
+}
+
+.itemCardImage img {
+    border-radius: 5%;
+    width: 100%;
+    height: 60px;
+}
+
+
+
+.postedItemsContainer h3 {
+    color: #000000;
+}
+
+.createdAt {
+    font-size: 14px;
+    color: #4f4f4f;
+    margin: 8px;
+}
+
+.mainContainer {
+    min-height: 80vh;
+    flex-grow: 1;
+    background-color: #f3f5fa;
+    height: 100%;
+    padding-top: 50px;
+
+}
+
+.mainContainer h2,
+p {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.logout {
+    margin: 10px;
+    margin-left: 95%;
+    background-color: rgb(72, 66, 64);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 5px;
+}
+
+.logout:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(72, 66, 64);
+}
+
+.container {
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+}
+
+.sidebar {
+    width: 5%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    height: 200px;
+    position: sticky;
+    top: 80px;
+
+}
+
+.inSidebar {
+    margin-top: 120px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.noItem {
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+    margin: 300px;
+    font-size: 3rem;
+}
+
+.content {
+    width: 80%;
+    padding: 10px;
+    padding-top: 15px;
+    margin-left: 20%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    grid-gap: 15px;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ffffffd3;
+
+}
+
+.content h2 {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.775);
+    text-align: center;
+
+}
+
+/* .item {
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgba(239, 239, 239, 0.737);
+    margin-bottom: 40px;
+    padding: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+} */
+
+
+
+.item b {
+    font-size: 18px;
+    margin-left: 25px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+label {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+
+.dash_input input {
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    /* width: 100px; */
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+.priceRange,
+input[type=number] {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.cat h3 {
+    text-align: center;
+    color: #000000;
+}
+
+.cat {
+    background-color: rgb(190, 188, 188);
+    margin-top: 50px;
+    color: white;
+    border-radius: 10px;
+    width: 180px;
+    height:290px;
+    padding-left: 30px;
+}
+
+.cat label {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.myComponent {
+    position: relative;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+
+}
+
+.toggleDropdown p {
+    text-align: right;
+    margin-right: 90px;
+    font-size: 20px;
+}
+
+.sort-by-toggle {
+    cursor: pointer;
+}
+
+.sortingOptions {
+    position: absolute;
+    top: 100%;
+    /* Position the dropdown below the "Sort By" text */
+    left: 0;
+    z-index: 1;
+    /* Ensure the dropdown is above other content */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    list-style: none;
+    margin: 0;
+}
+
+.sortingOptions li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.sortingOptions li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Show the dropdown when it's visible */
+.myComponent .sortingOptions {
+    display: block;
+}
+
+.sortOptions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inSortOptions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 160px;
+    margin-left: 5%;
+    margin-top: -90px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 500px) {
+    .inSortOptions {
+        background-color: red;
+    }
+}
+
+.inSortOptions ul {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    border-radius: 3%;
+    left: 0;
+    background-color: #ffffff;
+    /* z-index: 1; */
+}
+
+.inSortOptions li {
+    padding: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.inSortOptions li:hover {
+    background-color: #f3f5fa;
+}
+
+.inSortOptions {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    border-radius: 3%;
+    left: 0;
+    background-color: #ffffff;
+    /* z-index: 1; */
+}
+
+/* ProductList.css */
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.productItem {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: transform 0.2s;
+    width: 250px;
+    border-radius: 10px;
+    /* border-style: none; */
+    background-color: rgba(160, 155, 168, 0.539);
+    padding: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.productItem:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.productItem img {
+    max-width: 100%;
+    height: 300px;
+    /* border-radius: 4px 4px 0 0; */
+}
+
+.productItem h3 {
+    font-size: 18px;
+    /* margin: 10px 0; */
+    text-align: center;
+    color: rgb(26, 26, 68);
+}
+
+.productItem p {
+    font-size: 14px;
+    color: #333;
+}
+
+.productItem b {
+    color: rgba(37, 34, 223, 0.923);
+}
+
+.productDetailsModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.productDetails {
+    background-color: #e6e6e6;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.productDetails p {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.toggleDropdown p {
+    text-align: right;
+    margin-right: 90px;
+}
+
+.toggleDropdown span {
+    cursor: pointer;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    background: none;
+    font-size: 30px;
+    border: none;
+    color: #888;
+}
+
+.closeButton:hover {
+    color: #000000;
+    background-color: #e6e6e6;
+
+}
+
+.bookmark-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #888;
+}
+
+.bookmark-button.bookmarked {
+    color: #e74c3c;
+}
+
+.productImages {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.productImages img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+.prev_button,
+.next_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.prev_button:hover,
+.next_button:hover {
+    background-color: inherit;
+    font-size: larger;
+}
+
+.prev_button {
+    left: 20px;
+}
+
+.next_button {
+    right: 20px;
+}
+
+.content b {
+    font-size: 18px;
+    margin-left: 5px;
+    text-align: left;
+    color: rgb(17, 0, 255);
+}
+
+/* CSS for Pagination Container */
+.pagination_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* CSS for Pagination Buttons */
+.pagination_button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.pagination_button:hover {
+    background-color: #0056b3;
+}
+
+/* CSS for Disabled Pagination Buttons */
+.pagination_button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* CSS for Page Information */
+.page_info {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Apply these styles in your component */

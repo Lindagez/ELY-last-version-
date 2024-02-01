@@ -1,0 +1,52 @@
+.profile-container {
+    min-width: 50%;
+    min-height: 40%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.profile-texts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.profile-text {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 50%; */
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.profile-tex {
+    /* display: flex; */
+    justify-content: space-between;
+    /* margin-top: 50%; */
+    /* margin-left:40% ; */
+}
+
+.profile-margin {
+    margin-top: 10%;
+}
+
+.backgroundpage {
+    background-color: rgb(255, 255, 255);
+}
+
+.profilePicture {
+    margin-left: 20%;
+}
+
+.backgroundcolor1 {
+    background-color: white;
+    width: 70%;
+    min-height: 80%;
+    margin-left: 20%;
+    /* margin-top: 20%; */
+    /* box-shadow: ; */
+    justify-content: center;
+}

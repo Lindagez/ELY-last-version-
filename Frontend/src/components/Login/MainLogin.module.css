@@ -1,0 +1,170 @@
+.formContainer,
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.close_button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: #888;
+}
+
+.close_button:hover {
+    color: black;
+}
+
+.out {
+    margin-left: 500px;
+}
+
+.cont {
+    min-width: 100vh;
+    width: 100%;
+}
+
+.loginForm h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.loginForm label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    padding: 0.25rem 0;
+    
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contain {
+    background-color: rgb(11, 10, 10);
+    height: auto;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    /* padding-left:1px; */
+    /* background-image: ; */
+    background-size: cover;
+    background-position: center;
+    background: #235;
+    border: 1px solid #ccc;
+    transition: width 0.3s;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+@media only screen and (max-width: 400px) {
+    .contain {
+        right: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .contain {
+        /* right: 0 !important; */
+        position: static !important;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.loginForm {
+    fill: rgba(255, 255, 255, 0.2);
+    stroke-width: 1px;
+    stroke: #e0e0e0;
+    filter: drop-shadow(0px 82px 40px rgba(100, 100, 100, 0.08));
+}
+
+
+.loginForm p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+input {
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 7px;
+}
+
+.a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: rgba(37, 19, 110, 0.699);
+}
+
+.button:disabled {
+    background-color: rgb(122, 115, 115);
+    cursor: not-allowed;
+}
+
+
+
+.tog {
+    background-color: rgb(81 86 255);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tog:hover {
+    background-color: #c5c5c5;
+    color: rgb(81 86 255);
+}
+
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+

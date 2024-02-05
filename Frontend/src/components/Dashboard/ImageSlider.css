@@ -1,0 +1,28 @@
+/* In your CSS file */
+.image-slider {
+    text-align: center;
+}
+
+.image-slider .carousel {
+    max-width: 300px;
+    /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.image-modal {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+}
+
+.image-modal img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

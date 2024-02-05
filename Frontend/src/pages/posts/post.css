@@ -1,0 +1,10 @@
+@media (max-width: 767.98px) { .border-sm-start-none { border-left: none !important; } }
+
+.postmargin{
+    margin-top: 10%;
+    min-height: 100vh;
+}
+
+.custom-modal {
+    max-width: 900px;
+}

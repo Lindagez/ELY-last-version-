@@ -15,7 +15,7 @@ const auth = async (req, res,next) => {
             return res.status(401).json({ message: "Unauthorized, login first." });
         }
         
-        const validuser = await User.findOne({ token });
+        const validuser = await User.findOne({  });
         // const token = req.cookies.token;
         if (!validuser) {
             return res.status(401).json({ message: "Unauthorized, login first." });

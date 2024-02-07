@@ -279,16 +279,16 @@ const LandingNew = () => {
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h1 class="banner_taital">Resale Realm <br /> Discover a New Way to Buy and Sell</h1>
+                                    
                                     <br />
                                     <br />
                                     <Container>
                                         <p>
                                             <button onClick={handleBuy} className="btn btn-primary my-5">
-                                                Browse Listings
+                                                 Listings
                                             </button>
                                             <button onClick={handleSell} className="btn btn-success my-5">
-                                                Sell Your Items
+                                                Sell
                                             </button>
                                         </p>
                                     </Container>
